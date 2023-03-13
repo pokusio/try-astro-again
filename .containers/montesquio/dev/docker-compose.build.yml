@@ -1,0 +1,7 @@
+version: 3.9
+
+# --- 
+# A [docker-compose] used to build 
+# Montesquio OCI containers images
+
+

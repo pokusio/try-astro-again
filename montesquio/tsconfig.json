@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "importsNotUsedAsValues": "error",
+    "paths": {
+      "photoswipe/lightbox": [
+        "./node_modules/photoswipe/dist/types/lightbox/lightbox.d.ts"
+      ]
+    }
+  },
+  "extends": "astro/tsconfigs/strict"
+}
